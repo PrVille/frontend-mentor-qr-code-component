@@ -36,6 +36,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ## Author
 
-- Website - [Ville Prami](https://www.your-site.com)
+- Website - [Ville Prami](https://villeprami.vercel.app/)
 - Frontend Mentor - [@PrVille](https://www.frontendmentor.io/profile/PrVille)
 - LinkedIn - [Ville Prami](https://www.linkedin.com/in/ville-prami/)
