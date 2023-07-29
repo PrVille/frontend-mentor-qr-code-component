@@ -57,11 +57,29 @@ p {
   color: var(--GrayishBlue);
 }
 
-.attribution {
-  padding: 10px;
-  font-size: 11px;
+.footer {
+  padding: 20px;
   text-align: center;
+  font-size: 14px;
 }
-.attribution a {
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-content span {
+  margin: 5px;
+}
+
+.footer-content a {
   color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-content a:hover {
+  color: hsl(228, 45%, 64%);
 }
