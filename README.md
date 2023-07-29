@@ -52,7 +52,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
   <a href="https://www.linkedin.com/in/ville-prami/">
     <img alt="linkedin" title="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
-   <a href="https://www.frontendmentor.io/profile/PrVille" >
+   <a href="https://www.codewars.com/users/PrVille" >
     <img alt="codewars" title="Codewars" src="https://img.shields.io/badge/Codewars-B1361E?style=for-the-badge&logo=Codewars&logoColor=white" />
   </a>
   <a href="https://www.frontendmentor.io/profile/PrVille" >
