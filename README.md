@@ -10,6 +10,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Useful resources](#useful-resources)
+- [Acknowledgements](#acknowledgements)
 - [Author](#author)
 
 ## Overview
@@ -37,6 +38,10 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 ### Useful resources
 
 - [box-shadow](https://developer.mozilla.org/en-US/docs/Web/CSS/box-shadow)
+
+## Acknowledgements
+
+- Challenge was provided by [Frontend Mentor](https://www.frontendmentor.io)
 
 ## Author
 
