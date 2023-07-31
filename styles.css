@@ -58,28 +58,109 @@ p {
 }
 
 .footer {
-  padding: 20px;
-  text-align: center;
-  font-size: 14px;
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+}
+
+.footer-avatar img {
+  object-fit: cover;
+  width: 48px;
+  height: 48px;
+  border: 1px solid white;
+  border-radius: 9999px;
+}
+
+.footer:hover .footer-avatar {
+  display: none;
+}
+
+.footer:hover .footer-content {
+  display: block;
 }
 
 .footer-content {
+  display: none;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+}
+
+.footer-content-buttons {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-top: 24px;
 }
 
-.footer-content span {
-  margin: 5px;
-}
-
-.footer-content a {
-  color: hsl(228, 45%, 44%);
+.footer-content-buttons a {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 9999px;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  font-size: 14px;
+  line-height: 20px;
   text-decoration: none;
-  transition: color 0.3s ease;
 }
 
-.footer-content a:hover {
-  color: hsl(228, 45%, 64%);
+.challenge-button {
+  color: white;
+  background-color: #3e54a3;
+}
+
+.challenge-button:hover {
+  background-color: #29376b;
+}
+
+.code-button {
+  color: black;
+  background-color: #d9d9d9;
+}
+
+.code-button:hover {
+  background-color: #b3b3b3;
+}
+
+.solutions-button {
+  color: white;
+  background-color: #ed2c49;
+}
+
+.solutions-button:hover {
+  background-color: #bc102a;
+}
+
+.footer-content-socials {
+  border-top: 1px solid #e5e7eb;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 16px;
+  padding-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.footer-content-socials svg {
+  height: 24px;
+  width: 24px;
+}
+
+.footer-content-socials a {
+  opacity: 0.9;
+}
+
+.footer-content-socials a:hover {
+  opacity: 1;
 }
